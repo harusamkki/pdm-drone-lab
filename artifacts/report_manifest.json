@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-17",
+  "dependencies": {
+    "scripts/report.py": "ff338bafb23f29f733cfe3666fe2b6ca32ed7d4b5eb9cc232ffba6ac4e334ce6",
+    ".agents/skills/pdm-risk/SKILL.md": "5f4192561709d0cd566f2f3147a498ca3b82449441fe02cc30e136c8b2b5966c",
+    "reports/model_validation.md": "2d72d06dc3e5b0b19231bd70c0f497642ce025e0f935dd44ec2550b3b304bc10",
+    "reports/threshold_whatif.md": "1025bf25d05ec605d3bbe3ae90dc8121baf941d861aca902ad9682cf8b0eed8e",
+    "artifacts/prediction_manifest.json": "51474112a845be17397af103cb9e8958de1e1484ff4d0d8e768d7676a4f4dc7e"
+  },
+  "outputs": {
+    "analysis_report.md": "806ce10032c82dc4d68ad8203f1b584b8e8c1e43d41da7583a0ed7f8d7d619dd",
+    "2026-01_재점검계획.md": "7a30969a2e98e244504fadb999411df47e578db9e9d3772df69613bae26a80a0",
+    "verification.md": "07ad6ee8df271585495081a9cb20fc21d8e03cab48c5d50f7f4db45739a5ebf4"
+  }
+}

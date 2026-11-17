@@ -1,0 +1,77 @@
+{
+  "model": "LightGBM / seed 42 / fixed parameters",
+  "features": [
+    "equipment_type",
+    "maintenance_type",
+    "fault_category",
+    "equipment_age_years",
+    "severity",
+    "downtime_hours",
+    "repair_duration_hours",
+    "parts_replaced_count",
+    "maintenance_cost",
+    "maintenance_success",
+    "cumulative_operating_hours",
+    "days_since_last_maintenance",
+    "is_first_maintenance",
+    "fail_count_90d",
+    "days_since_last_failure",
+    "hours_since_last_pm"
+  ],
+  "train_rows": 1611,
+  "train_last_date": "2024-05-31",
+  "validation_start": "2024-07-01",
+  "validation_end_exclusive": "2024-12-01",
+  "final_train_rows": 2223,
+  "final_last_date": "2024-12-01",
+  "threshold": 0.26,
+  "miss_cost": 300,
+  "check_cost": 60,
+  "capacity": 20,
+  "validation": {
+    "rows": 515,
+    "failures": 130,
+    "base_rate": 0.2524271844660194,
+    "pr_auc_ap": 0.7549394506143395,
+    "roc_auc": 0.8741858141858142,
+    "accuracy": 0.8271844660194175,
+    "all_negative_accuracy": 0.7475728155339806,
+    "precision": 0.6198830409356725,
+    "recall": 0.8153846153846154,
+    "confusion_TN_FP_FN_TP": [
+      320,
+      65,
+      24,
+      106
+    ]
+  },
+  "monthly_hits": {
+    "model": 30.0,
+    "oldest": 16.0,
+    "random_expected": 10.890758195453166
+  },
+  "sensitivity": {
+    "raw_extremes_ap": 0.7522273649401254,
+    "raw_extremes_hits": 30
+  },
+  "source_hashes": {
+    "data/drone_train.csv": "26c4d3711fd5c91dc183815af83ba5af6107b6470ae2d3660da2a50586136121",
+    "pdm_lib.py": "22fb39826c7e31370163cbcdef945ea7e7e4aadadfc93c93a01f62f5c3faccf7",
+    "AGENTS.md": "e5f55ccb50f470378d72906600718276420b579e33053c901ec701346f8afc71",
+    "scripts/train.py": "59e502360cc2e2c8ba56d0e7dbbde7ec9c8e136fc21175c0467df0d3dcc8f89a",
+    ".agents/skills/pdm-train/SKILL.md": "24508e2f81d5274b4b79766dfaf43297712696f031b766b0072750d59272b7bd"
+  },
+  "limits": [
+    "교육용 가상 데이터이며 실제 운용에 그대로 적용하지 않는다.",
+    "검증 기간에서 임계값도 선택했으므로 독립 시험 성능이 아니다. 2025년 시험 정답은 제공되지 않았다.",
+    "극단값 보정 원인은 확정되지 않은 가정이며 같은 드론의 반복 기록이 포함된다.",
+    "월별 최신 정비 기록의 재고장 결과로 평가했으며 실제 점검 효과를 입증하지 않는다.",
+    "확률 보정은 별도로 검증하지 않았으며 최종 판단은 정비 담당자가 한다."
+  ],
+  "artifact_hashes": {
+    "validation_model.joblib": "1b8141d309042fdd04ffff30253abc577be15efc4a1e40a681c5101babaa515e",
+    "drone_model.joblib": "60b819ff10349cbdfb2eb3b750da21af899d440b15fe3608a7d22060c314546f",
+    "validation_predictions.csv": "0d52ce87077f1477d068e848a191870352c83bec20e43346f08c40bc0965f59e",
+    "backtest_validation.csv": "a6aa73b4b4c85b14e143766d49f49892b093c9facf14c05a0bb729d8096b0c36"
+  }
+}

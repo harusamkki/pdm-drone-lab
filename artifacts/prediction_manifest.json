@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "artifacts/drone_model.joblib": "60b819ff10349cbdfb2eb3b750da21af899d440b15fe3608a7d22060c314546f",
+    "artifacts/model_card.json": "22ff7eaa4441074222b91e8d0d10f64847e163e43cd0696d142b07eeb41e835b",
+    "pdm_lib.py": "22fb39826c7e31370163cbcdef945ea7e7e4aadadfc93c93a01f62f5c3faccf7",
+    "scripts/predict.py": "a3f1e1c3d681bcde3e82565a583c7f752eca28e88eeca45fa2bb01f51b309b2e",
+    "data/drone_test.csv": "5fa789dd8111ce5c3303e9a5c9f0694aec409a1c3a504574cc2ab2386ece7a7e",
+    "data/drone_this_month.csv": "379631f03af5139d8a0c5c7278d812b7892da022a4d7650488eafe5ff564e346",
+    "data/drone_train.csv": "26c4d3711fd5c91dc183815af83ba5af6107b6470ae2d3660da2a50586136121"
+  },
+  "outputs": {
+    "reports/test_predictions_2025.csv": "a5d5e310a90dfcda10f567592139a60773dba6018cd45ddbcfcef8fdde0d82af",
+    "reports/score_2026-01.json": "62dc038fb3935d12c5d0b51ce6cc01d989e19870bfce1f9b1b971b0b5730499a",
+    "reports/reinspection_2026-01.csv": "c3f3e70d9cfcfb77329b193beea8b47fd11c43c1cda2d0c4f3d72c5f6144a9f4",
+    "reports/selection_2026-01.md": "0881a6bbb05178703fcba42adae83d30fcc32eba49c735bce7f222213972891c"
+  }
+}
