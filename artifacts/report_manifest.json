@@ -1,15 +1,17 @@
 {
   "date": "2026-11-17",
   "dependencies": {
-    "scripts/report.py": "ff338bafb23f29f733cfe3666fe2b6ca32ed7d4b5eb9cc232ffba6ac4e334ce6",
+    "scripts/report.py": "2d2d9c22feda8e7a68249d05587cdf92c830d141e8c231f031534aaa36d7f82e",
     ".agents/skills/pdm-risk/SKILL.md": "5f4192561709d0cd566f2f3147a498ca3b82449441fe02cc30e136c8b2b5966c",
     "reports/model_validation.md": "2d72d06dc3e5b0b19231bd70c0f497642ce025e0f935dd44ec2550b3b304bc10",
     "reports/threshold_whatif.md": "1025bf25d05ec605d3bbe3ae90dc8121baf941d861aca902ad9682cf8b0eed8e",
-    "artifacts/prediction_manifest.json": "51474112a845be17397af103cb9e8958de1e1484ff4d0d8e768d7676a4f4dc7e"
+    "artifacts/prediction_manifest.json": "51474112a845be17397af103cb9e8958de1e1484ff4d0d8e768d7676a4f4dc7e",
+    "scripts/dashboard_analysis.py": "009cc5f0d1ee9b036e0ba5becef886ac90e0b2d4ba09babd98f804c63a9516f2"
   },
   "outputs": {
-    "analysis_report.md": "806ce10032c82dc4d68ad8203f1b584b8e8c1e43d41da7583a0ed7f8d7d619dd",
-    "2026-01_재점검계획.md": "7a30969a2e98e244504fadb999411df47e578db9e9d3772df69613bae26a80a0",
+    "analysis_report.md": "c8c13fe9f20d87119122b7b9bea5e55d105faebcf98e5ffb54805ee4bacfb43a",
+    "2026-01_재점검계획.md": "f862b6452437c8909911c2a7ae1b5852679c48193a364b63373e81c5e1c9c838",
+    "dashboard_analysis.md": "1c4b783d4a1633b2ac30cf90387ac6656bd0d0f213fb47594a148f9bfc6a394c",
     "verification.md": "07ad6ee8df271585495081a9cb20fc21d8e03cab48c5d50f7f4db45739a5ebf4"
   }
 }
